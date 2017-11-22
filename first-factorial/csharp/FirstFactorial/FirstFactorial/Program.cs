@@ -5,7 +5,7 @@ class MainClass
     public static int FirstFactorial(int num)
     {
         var f = num;
-        for (int i = num-1; i >= 1; i--)
+        for (int i = num-1; i > 1; i--)
         {
             f = f * i;
         }
