@@ -12,7 +12,7 @@ class MainClass
             var c = Convert.ToInt32(str[i]);
             if (IsLetter(c))
             {
-                if (c == 90 || c == 122)
+                if (c == 90 || c == 122) //for Z & z
                     c -= 25;
                 else
                     c += 1;
